@@ -1,0 +1,102 @@
+*{  
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    position: absolute;
+    /* top: 6%; */
+    right: 13%;
+}
+nav ul li{
+    padding: 10px;
+    list-style-type: none;
+    margin: 10px;
+    font-weight: 600;
+}
+.logo-png{
+    width: 14%;
+}
+
+/* hero section */
+.hero-section{
+    margin-top: 8%;
+}
+
+ /* left section */
+ .img-top{
+    position: absolute;
+    top: 19%;
+    width: 3%;
+
+ }
+ .img-bottom{
+    position: absolute;
+    top: 80%;
+    right: 59%;
+    width: 3%;
+
+ }
+ .left-section h1{
+    font-size: 59px;
+    width: 36%;
+ }
+ .left-section p{
+    width: 37%;
+    margin-top: 3%;
+    font-size: 96%;
+ }
+ .btn-apointment{
+    padding: 17px;
+    width: 19%;
+    height: auto;
+    font-size: 120%;
+    background-color: #13bf8f;
+    border: none;
+    border-radius: 48px;
+    size: 27px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 80%;
+ }
+.mouse{
+    position: relative;
+    top: 19vh;
+    right: -95vh;
+    width: 42px;
+}
+.stethoscope{
+    position: absolute;
+    top: 11%;
+    padding: 1%;
+    width: 45%;
+    left: 8%;
+}
+.green-box{
+    position: absolute;
+    right: 13px;
+    width: 31%;
+    top: 177px;
+}
+.yellow-box{
+    position: absolute;
+    top: 213px;
+    right: 10px;
+    width: 26%;
+}
+.doctor{
+    position: absolute;
+    width: 31%;
+    top: 51px;
+    right: 10px;
+}

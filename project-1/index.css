@@ -1,0 +1,102 @@
+*{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+nav{
+    height: 10px;
+    padding:20px ;
+    margin: 20px 20px ;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 50px;
+   
+    
+}
+nav ul li{
+    /* margin-right: 56px; */
+    font-size: smaller;
+    
+    
+}
+
+
+
+/* main section  or Hero section*/
+
+
+main{
+    /* border-radius: 10%;
+    background-color: rgb(194, 220, 21); */
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 55px;
+    align-items: baseline; 
+}
+.left-section {
+width: 50%;
+    
+    
+}
+.right-section{
+    width: 50%;
+}
+.lower-img{
+    
+    width: 24%;
+    position: absolute;
+}
+.upper-left-img{
+    width: 25%;
+    margin: 1%;
+
+}
+.upper-right-img{
+    width: 20%;
+    margin: 1%;
+}
+div p{   
+        width: 50%;
+        margin-top: 16px;
+        margin-bottom: 17px;
+        font-size: small;
+        margin-bottom: 4%;
+        background-color: #ebe46a;
+}
+.btn-learn-more{
+    background: #229122;
+    border: none;
+    width: 18%;
+    height: 37px;
+    border-radius: 7px;
+    color: white;
+    font-size: inherit;
+    padding: 5px -6px;
+    font-weight: 700;
+}
+.focus{
+    border: 18px;
+    background: #ffd400;
+    border-radius: 82px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fas fa-search{
+    position: absolute;
+}
+.icon { 
+    position: absolute;
+    top: 8%;
+    right: 19%;
+}
+.icon-input{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    text-align: center;
+}
